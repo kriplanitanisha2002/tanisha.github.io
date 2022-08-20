@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>environment</title>
+    <style>
+        body{
+            background-color: pink;
+            /* background: url('nature.jpg'); */
+        }
+        h1{
+            color: blueviolet;
+             font-size: 5pc;
+            border: 1px solid royalblue;
+            text-align: center;
+            background-color: white;
+            
+        }
+        h3{
+            color: blue;
+            font-size: x-large;
+        }
+         /* #rules  {font-size: xx-large;
+             }  */
+        .defination{font-size: xx-large ;
+                        font-family: cursive;
+                    color: black;}
+          .form {border: 2px solid rgb(112, 0, 0);
+        border-style :ridge;
+            width: 500pt;
+        border-radius: 10px;
+    text-align: center;
+       font-family: cursive ;
+       font-size: x-large;
+       box-sizing: border-box;
+       padding: 76px;
+       margin: 100px;
+       background-color: white;
+        }
+          #table{font-size: x-large;
+                 border: 2px solid black;
+                 padding: 50px 50px;
+                 margin-left: 59px;
+                 background-color: white;
+              }
+              .def{font-size: xx-large;
+            background-color: greenyellow;
+             font-family:cursive ;
+               border-radius: 6px;
+            border: 7px solid blue}
+               .image{ 
+                   display: block;
+                   margin-left: auto;
+                   margin-right: auto;
+                   width: 15%;
+                     } 
+    </style>
+</head>
+<body>
+    <h1>Save Nature and Save Life</h1>
+    <p class="defination">
+       <strong>All the plants, animals, etc. in the universe and all the things that happen in it that are not made or caused by people.</strong> </p><br>
+       <!-- <img src="nature.jpg" alt="error"  class="image"> -->
+       <img src="/nature.jpg" alt= "Error loading image" class="image">
+       <h5><span class="def" ><strong>Some rules to protect them.</strong><span></h5>
+       <ul type="square" class="defination">
+           <li>we should not pollute environment. </li>
+           <li>we should feed street animals.</li>
+           <li>we should not cut trees and plants.</li>
+       </ul>
+       <h5><span class="def">Members of Organization</span></h5> 
+       <table id="table">
+           <thead><tr>
+               <th>S.N &nbsp;</th>
+               <th>MEMBERS &nbsp</th>  
+               <th>WORKING AREA &nbsp</th>
+                <th>&nbsp POST IN SOCIETY</th>
+                   </tr>
+           </thead>
+           <tbody class="defination">
+               <tr><td>1.</td>
+                   <td>Chandni</td>
+                   <td>Chittorgarh</td>
+                   <td>President</td>
+                </tr>
+                <tr> 
+                    <td>2.</td>
+                   <td>Tanisha</td>
+                   <td>Chandigarh</td>
+                   <td>Vice-President</td></tr>
+                   <tr>
+                    <td>3.</td>
+                   <td> Lavina</td>
+               <td>Delhi</td>
+               <td>Manager</td></tr>
+            </tbody>
+       </table>
+       <h3 class="defination">Forms for participation in campaign</h3><hr>
+       <form action="backend.php" class="form" >
+           <div>
+            Name: <input type="text" name="Myname">
+           </div><br>
+           <div>
+            Contact no.: <input type="text" name="Mycontact">
+           </div><br>
+           <div>
+            Email: <input type="email" name="Myemail">
+           </div><br>
+           <div>
+            Date: <input type="date" name="Mydate">
+           </div><br>
+           <div>
+            Gender: Male<input type="radio" name="Mygender">
+                    Female<input type="radio" name="Mygender">
+                    Other<input type="radio" name="Mygender">
+           </div><br>
+           <div>
+            Time: <input type="time" name="Mytime">
+           </div><br>
+           <div>
+            Age: <input type="number" name="Myage">
+           </div><br>
+           <div>
+            Are you eligible for compaign: <input type="checkbox" name="eligible">
+           </div><br>
+           <div>
+            Write about yourself: <br><textarea name="Mytext" cols="30" rows="10"></textarea>
+           </div><br>
+           <div>
+            Reset: <input type="reset" name="reset">
+            Submit: <input type="submit" name="submit">
+           </div><br>   
+       </form>
+       
+       <p><span class="def">To search more about nature go to-</span></p>
+       <a href="http://google.com" target="blank" >Go to google</a>
+   
+</body>
+</html>
